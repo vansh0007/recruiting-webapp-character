@@ -32,7 +32,6 @@ function App() {
     newCharacters[index] = updatedCharacter;
     setCharacters(newCharacters);
   };
-
   const addNewCharacter = () => {
     const newCharacter = {
       id: characters.length + 1,

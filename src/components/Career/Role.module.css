@@ -1,0 +1,27 @@
+.roleContainer {
+    padding: 1rem;
+}
+
+.roleList{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.roleItem {
+    border: 1px solid #ccc;
+    padding: 1em;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    /* transition: box-shadow 0.3s; */
+    transition: all 0.3s ease; 
+    cursor: pointer;
+}
+  
+.roleItem:hover {
+    box-shadow: 0 0 10px rgba(234, 226, 226, 0.2);
+    transform: translateY(-2px); 
+    border-color: rgba(234, 226, 226, 0.6); 
+}
+  

@@ -1,0 +1,16 @@
+.characterAttributeContainer {
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 1rem;
+}
+
+.attributeRow {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 5px;
+}   
